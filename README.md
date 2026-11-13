@@ -2,6 +2,8 @@
 
 **BOOX WeRead Toolkit** · `boox-weread-toolkit` · MIT
 
+[下载预发布版与 APK](https://github.com/cdyyang8-droid/boox-weread-toolkit/releases/tag/v0.1.0) · [自动检查](https://github.com/cdyyang8-droid/boox-weread-toolkit/actions/workflows/check.yml)
+
 把文石阅读器变成微信读书专用设备，也可以保留一个简洁的阅读首页。按自己的需要选择停用应用、后台组件和 Google 服务，并保留恢复入口。
 
 > 当前版本：0.1.0，预发布。本项目由 BOOX Leaf2 P 上的一次个人配置整理而来；新版 APK 已编译验证，新增模式与通用服务工具尚未在真实设备上完整回归。请先阅读[支持范围](docs/COMPATIBILITY.md)。
