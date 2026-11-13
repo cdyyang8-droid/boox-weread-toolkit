@@ -1,0 +1,166 @@
+{
+  "schema": 1,
+  "tested_on": {
+    "model": "BOOX Leaf2 P",
+    "android": "11",
+    "firmware": "4.0.2",
+    "date": "2026-10-22"
+  },
+  "groups": {
+    "apps": "可选文石应用",
+    "google": "Google 服务（可单独选择）",
+    "optional": "其他可选系统功能"
+  },
+  "items": [
+    {
+      "package": "com.onyx.mail",
+      "label": "邮件",
+      "group": "apps",
+      "effect": "无法使用文石邮件应用。"
+    },
+    {
+      "package": "com.onyx.musicplayer",
+      "label": "音乐",
+      "group": "apps",
+      "effect": "无法使用文石音乐播放器，可能影响本地音频播放。"
+    },
+    {
+      "package": "com.onyx.voicerecorder",
+      "label": "录音",
+      "group": "apps",
+      "effect": "无法使用文石录音功能。"
+    },
+    {
+      "package": "com.onyx.aiassistant",
+      "label": "AI 助手",
+      "group": "apps",
+      "effect": "无法使用文石 AI 助手。"
+    },
+    {
+      "package": "com.onyx.calculator",
+      "label": "计算器",
+      "group": "apps",
+      "effect": "无法使用文石计算器。"
+    },
+    {
+      "package": "com.onyx.clock",
+      "label": "时钟",
+      "group": "apps",
+      "effect": "无法使用文石时钟，可能影响闹钟。"
+    },
+    {
+      "package": "com.onyx.gallery",
+      "label": "图库",
+      "group": "apps",
+      "effect": "无法使用文石图库查看图片。"
+    },
+    {
+      "package": "com.onyx.appmarket",
+      "label": "应用商店",
+      "group": "apps",
+      "effect": "无法从文石应用商店安装或更新应用。"
+    },
+    {
+      "package": "com.onyx.igetshop",
+      "label": "书城应用",
+      "group": "apps",
+      "effect": "无法使用对应的文石书城入口。"
+    },
+    {
+      "package": "org.chromium.chrome",
+      "label": "浏览器",
+      "group": "apps",
+      "effect": "无法使用此 Chromium 浏览器；网页登录或跳转功能需另行验证。"
+    },
+    {
+      "package": "com.onyx.dict",
+      "label": "词典",
+      "group": "apps",
+      "effect": "无法使用此词典；阅读中查词可能受影响。"
+    },
+    {
+      "package": "com.onyx.easytransfer",
+      "label": "快捷传书",
+      "group": "apps",
+      "effect": "无法使用文石快捷传书。"
+    },
+    {
+      "package": "com.google.android.gms",
+      "label": "Google Play 服务",
+      "group": "google",
+      "effect": "依赖 Google Play 服务的登录、推送、定位、授权及应用可能失效。"
+    },
+    {
+      "package": "com.google.android.gsf",
+      "label": "Google 服务框架",
+      "group": "google",
+      "effect": "Google 账号及依赖 Google 框架的应用可能失效。"
+    },
+    {
+      "package": "com.google.android.syncadapters.contacts",
+      "label": "Google 联系人同步",
+      "group": "google",
+      "effect": "Google 联系人同步停止。"
+    },
+    {
+      "package": "com.google.android.syncadapters.calendar",
+      "label": "Google 日历同步",
+      "group": "google",
+      "effect": "Google 日历同步停止。"
+    },
+    {
+      "package": "com.google.android.apps.restore",
+      "label": "Google 数据恢复",
+      "group": "google",
+      "effect": "Google 应用及数据恢复功能停止。"
+    },
+    {
+      "package": "com.google.android.gms.location.history",
+      "label": "Google 位置记录",
+      "group": "google",
+      "effect": "Google 位置记录功能不可用。"
+    },
+    {
+      "package": "com.android.bips",
+      "label": "系统打印服务",
+      "group": "optional",
+      "effect": "无法使用系统打印功能。"
+    },
+    {
+      "package": "com.android.printservice.recommendation",
+      "label": "打印服务推荐",
+      "group": "optional",
+      "effect": "无法使用打印服务推荐。"
+    },
+    {
+      "package": "com.android.quicksearchbox",
+      "label": "系统搜索框",
+      "group": "optional",
+      "effect": "无法使用该系统搜索框。"
+    },
+    {
+      "package": "com.android.egg",
+      "label": "Android 彩蛋",
+      "group": "optional",
+      "effect": "无法打开 Android 彩蛋。"
+    },
+    {
+      "package": "com.android.dreams.basic",
+      "label": "Android 互动屏保",
+      "group": "optional",
+      "effect": "无法使用 Android 互动屏保；原验证设备的文石屏保不依赖它。"
+    },
+    {
+      "package": "com.android.dreams.phototable",
+      "label": "Android 照片互动屏保",
+      "group": "optional",
+      "effect": "无法使用照片互动屏保；原验证设备的文石屏保不依赖它。"
+    },
+    {
+      "package": "com.qualcomm.qti.sva",
+      "label": "高通语音激活工具",
+      "group": "optional",
+      "effect": "高通语音唤醒可能不可用。"
+    }
+  ]
+}

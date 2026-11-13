@@ -1,0 +1,15 @@
+*.py[cod]
+__pycache__/
+.gradle/
+**/build/
+local.properties
+.idea/
+*.iml
+.DS_Store
+backups/
+*.jks
+*.keystore
+*.p12
+*.pem
+.env
+.env.*
